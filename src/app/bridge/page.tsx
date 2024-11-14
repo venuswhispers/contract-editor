@@ -140,7 +140,7 @@ const Page: React.FC = () => {
     <div className="text-white px-20 py-20">
       {
         Object.entries(values).map(([key, value]) => (
-          <div className='pt-5'>
+          <div className='pt-5' key={key}>
             <Input
               disabled={true}
               key={key}
