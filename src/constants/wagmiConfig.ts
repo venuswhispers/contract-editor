@@ -57,7 +57,7 @@ export const chains = [
     contracts: {},
   } as const satisfies Chain,
   {
-    id: 200199,
+    id: 200201,
     name: 'ZOO Testnet',
     nativeCurrency: { name: 'Test ZOO', symbol: 'tZOO', decimals: 18 },
     rpcUrls: {
