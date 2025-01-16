@@ -11,7 +11,7 @@ const Header = () => {
     <div className="py-10 flex justify-between px-20">
       <div className='flex gap-5 text-white'>
         <button onClick={() => router.push('/vaults')}>vaults</button>
-        <button>contracts</button>
+        <button onClick={() => router.push('/contracts?address=')}>contracts</button>
       </div>
       <ConnectButton />
     </div>
