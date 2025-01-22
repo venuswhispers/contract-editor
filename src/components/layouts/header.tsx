@@ -12,6 +12,7 @@ const Header = () => {
       <div className='flex gap-5 text-white'>
         <button onClick={() => router.push('/vaults')}>vaults</button>
         <button onClick={() => router.push('/contracts?address=')}>contracts</button>
+        <button onClick={() => router.push('/swaps?swapId=')}>swaps</button>
       </div>
       <ConnectButton />
     </div>
